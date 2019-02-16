@@ -2,6 +2,7 @@ package it.wojtas.webapp.model;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import javax.persistence.Entity;
@@ -13,6 +14,7 @@ import javax.persistence.Id;
 @Entity
 @EqualsAndHashCode(of = {"id"})
 @ToString
+@NoArgsConstructor
 public class Publisher {
 
     @Id

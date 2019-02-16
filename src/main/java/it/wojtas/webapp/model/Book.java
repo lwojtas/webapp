@@ -10,6 +10,7 @@ import java.util.Set;
 @Entity
 @EqualsAndHashCode(of = {"id"})
 @ToString
+@NoArgsConstructor
 public class Book {
 
     public Book(String title, String isbn, Publisher publisher) {

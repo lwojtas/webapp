@@ -10,6 +10,7 @@ import java.util.Set;
 @Entity
 @EqualsAndHashCode(of = {"id"})
 @ToString
+@NoArgsConstructor
 public class Author {
 
     public Author(String firstName, String lastName) {
